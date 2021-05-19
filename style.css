@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    padding-top: 30px;
+}
+.image{
+    width: 16%;
+    margin: 0 auto;
+}
+.image img{
+    width: 100%;
+    border-radius: 12px;
+}
+.head{
+    width: 30%;
+    margin: 0 auto;
+}
+.name{
+    text-align: center;
+}
+.name h1{
+    font-size: 24px;
+    color: #4E5150;
+}
+.name p{
+    font-size: 17px;
+    color: #A9A9A9;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.stats-1{
+    padding:  10px 20px;
+    background-color: #E5E5E5;
+    border-radius: 12px;
+}
+.stats-1 h1{
+    color: #4E5150;
+    font-size: 18px;
+}
+.stats-1 p{
+    color: #BDBDBD;
+    font-size: 14px;
+}
+.main-container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px
+
+}
+.main-container img{
+    border-radius: 40px;
+}
+
+.one{
+    height: 20rem;
+    width: 21rem;
+    margin-left: 1.5rem;
+}
+.two{
+    grid-column: 2/4;
+    width: 38rem;
+    margin-left: -0.2rem;
+    height: 20rem;
+}
+
+.three{
+    grid-column: 1/3;
+    width: 46rem;
+    height: 20rem;
+    margin-left: 1.2rem;
+}
+.four{
+    width: 13rem;
+    height: 41rem;
+    margin-left: 1rem;
+}
+.five{
+    position: relative;
+    width: 21rem;
+    height: 18rem;
+    margin-top: -19.5rem;
+    margin-left: 0.5rem;
+}
+.six{
+    position: relative;
+    width: 23rem;
+    height: 18rem;
+    margin-top: -19.5rem;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #B9BDCF;
+    font-weight: 500;
+}
+
+@media screen and (max-width:400px) {
+    .head{
+        width: 80%;
+    }
+    .stats-1{
+        padding: 10px;
+    }
+    .main-container img{
+        border-radius: 20px
+
+    }
+    .one{
+        width: 6rem;
+        height: 7rem;
+        margin-left: -2.5rem;
+    }
+    
+    .two{
+        width: 14rem;
+        margin-left: -0.2rem;
+        height: 7rem;
+    }
+    .three{
+        width: 13rem;
+        height: 7rem;
+        margin-left: -2.8rem;
+    }
+    .four{
+        width: 7rem;
+        margin-left:-0.2rem;
+        height: auto;
+    }
+    .five{
+        width: 6rem;
+        height: 7rem;
+        margin-left: -2.5rem;
+        top: 11.5rem;
+
+    }
+    .six{
+        width: 5.8rem;
+        height: 7rem;
+        top: 11.5rem;
+    }
+    
+}
+@media only screen and (min-width: 400px)  and (max-width: 800px){
+    .head{
+        width: 50%
+    }
+    .stats-1{
+        margin-right: 11px;
+        margin-left: 11px
+    }  
+    .one{
+        margin-left: -5.5rem;
+        width: 15rem;
+        height: 15rem;
+    }
+    .two{
+        margin-left: 0.8rem;
+        width: 28rem;
+        height: 15rem;
+    }
+    .three{
+        width: 30rem;
+        margin-left: -5.8rem;
+    }
+    .four{
+        margin-left: -1rem;
+    }
+    .five{
+        margin-left: -5.5rem;
+        width:15rem;
+        height: 15rem;
+    }
+    .six{
+        width: 15rem;
+        height: 15rem;
+    }
+} 
